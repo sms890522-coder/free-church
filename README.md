@@ -4,7 +4,7 @@
 
 ## 수정해야 하는 값
 
-- `index.html`의 `https://open.kakao.com/o/REPLACE_ME`를 실제 카카오톡 1:1대화방 주소로 교체하세요.
+- 카카오톡 1:1대화방 주소는 `https://open.kakao.com/o/sqlMCiui`로 설정되어 있습니다.
 - 배포 주소는 `https://free-church.vercel.app` 기준으로 설정되어 있습니다.
 - 배포 후 네이버 서치어드바이저에 사이트를 등록하고 `sitemap.xml`, `robots.txt`를 제출하세요.
 
