@@ -5,12 +5,13 @@
 ## 페이지 구성
 
 - `index.html`: 메인 홍보 페이지와 대표 데모사이트 8개 노출
-- `demos.html`: 전체 데모사이트 포트폴리오 16개 노출
+- `demos.html`: `/demos` 주소로 노출되는 전체 데모사이트 포트폴리오 16개
 
 ## 수정해야 하는 값
 
 - 카카오톡 1:1대화방 주소는 `https://open.kakao.com/o/sqlMCiui`로 설정되어 있습니다.
 - 배포 주소는 `https://free-church.vercel.app` 기준으로 설정되어 있습니다.
+- Vercel `cleanUrls` 설정으로 `demos.html` 대신 `/demos` 주소를 사용합니다.
 - 배포 후 네이버 서치어드바이저에 사이트를 등록하고 `sitemap.xml`, `robots.txt`를 제출하세요.
 
 ## 네이버 검색 등록 체크
