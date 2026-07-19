@@ -406,6 +406,19 @@ a {
   background: var(--paper);
 }
 
+.actual-portfolio {
+  background: var(--soft);
+}
+
+.portfolio-grid.actual-portfolio-grid {
+  grid-template-columns: minmax(0, 520px);
+  justify-content: center;
+}
+
+.demo-portfolio {
+  border-top: 1px solid var(--line);
+}
+
 .demo-page {
   background: var(--paper);
 }
@@ -565,6 +578,10 @@ a {
   color: var(--ink);
   font-size: 1.18rem;
   line-height: 1.24;
+}
+
+.portfolio-info--single strong {
+  margin-top: 0;
 }
 
 .portfolio-actions {
